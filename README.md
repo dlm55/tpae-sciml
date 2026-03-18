@@ -1,8 +1,8 @@
 # Neural ODEs and Physics-Informed Learning for Interfacial Polymerization Kinetics
 
 **Course:** Scientific Machine Learning  
-**Author:** Dylan  
-**Date:** March 2026
+**Author:** Dylan McAfee
+**Date:** March 18 2026
 
 ---
 

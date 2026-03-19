@@ -26,9 +26,9 @@ Polymerization Kinetics in Thermoplastic Polyamide Elastomer Synthesis}}
 Thermoplastic polyamide elastomers (TPAEs) consisting of poly(tetramethylene
 oxide) (PTMO) soft segments and Nylon-6,10 hard segments are emerging as
 sustainable alternatives to neoprene in wetsuit manufacturing~\cite{gong2021}.
-Their synthesis via interfacial polymerization (IP)~---~a rapid, room-temperature
+Their synthesis via interfacial polymerization (IP),a rapid, room-temperature
 process where a growing polymer film forms at the interface of two immiscible
-liquids~---~enables direct three-dimensional shaping without thermoforming.
+liquids,enables direct three-dimensional shaping without thermoforming.
 However, the reaction kinetics governing molecular weight, conversion, and final
 properties remain poorly understood for this copolymer system.
 
@@ -38,7 +38,7 @@ kinetic model with a learned dynamics function, capturing effects such as film
 diffusion resistance and PTMO-dependent reactivity that analytical models miss.
 \textit{Physics-informed neural networks} (PINNs)~\cite{raissi2019} embed ODE
 residuals as a loss term, enabling recovery of unknown parameters such as the
-bimolecular rate constant $k$ from sparse experimental measurements~---~exactly
+bimolecular rate constant $k$ from sparse experimental measurements, exactly
 the scenario encountered during early-stage synthesis campaigns.
 
 This project applies both approaches to IP kinetics for six TPAE compositions
@@ -158,8 +158,8 @@ modeling to data-driven and physics-informed ML, motivated by the experimental
 realities of IP synthesis. The Neural ODE result highlights a fundamental
 limitation of single-trajectory training: insufficient coverage of concentration
 space leads to systematic bias under extrapolation. Training on multiple
-compositions simultaneously~---~feasible once UV-VIS kinetic data become
-available~---~would resolve this.
+compositions simultaneously, feasible once UV-VIS kinetic data become
+available, would resolve this.
 
 The PINN recovers $k$ to within 10\% from 15 observations starting from a
 $4\times$ wrong guess. The residual error reflects genuine identifiability
